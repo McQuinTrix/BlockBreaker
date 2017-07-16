@@ -5,14 +5,21 @@ using UnityEngine;
 public class brickScript : MonoBehaviour {
 
 	private int maxHits;
-	public LevelManager lvl;
+	private LevelManager lvl;
 	public Sprite[] hitSprite;
 	private int timesHit;
+	private bool breakable;
+	public static int brickCount = 0;
 
 	// Use this for initialization
 	void Start () {
+		breakable = this.tag == "brick";
+		if (breakable) {
+			brickCount++;
+		}
 		timesHit = 0;
 		maxHits = hitSprite.Length + 1;
+		lvl = GameObject.FindObjectOfType<LevelManager>();
 	}
 	
 	// Update is called once per frame
@@ -21,9 +28,17 @@ public class brickScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D coll){
+		if (breakable) {
+			HandleHits ();
+		}
+	}
+
+	void HandleHits(){
 		timesHit++;
 		if (timesHit >= maxHits) {
 			Destroy (gameObject);
+			brickCount--;
+			lvl.brickDestroyed ();
 		} else {
 			LoadSprites ();
 		}

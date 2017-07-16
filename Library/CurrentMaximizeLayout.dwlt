@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1417
     height: 738
-  m_MinSize: {x: 583, y: 492}
+  m_MinSize: {x: 581, y: 471}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 453
+  controlID: 8733
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 1123
     height: 738
-  m_MinSize: {x: 306, y: 492}
+  m_MinSize: {x: 304, y: 471}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 454
+  controlID: 8734
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1123
     height: 467
-  m_MinSize: {x: 306, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 304, y: 200}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 455
+  controlID: 8735
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,8 +166,8 @@ MonoBehaviour:
     y: 0
     width: 205
     height: 467
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -201,9 +201,9 @@ MonoBehaviour:
     height: 446
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 60250000
     m_LastClickedID: 0
-    m_ExpandedIDs: 4afbffff56fbffffccfbffff00000000e0250000f2250000fa250000
+    m_ExpandedIDs: f221feffa638feff6441fefffa42feffc653feff8057feff4e61feffc815ffff2a22ffff662bffffc22dfffff02effff9034ffff5839ffff4afbffff56fbffff74fbffffccfbffff00000000e0250000f2250000fa250000e2300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -313,9 +313,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.272434
+    m_Target: 14.674629
     speed: 2
-    m_Value: 16.272434
+    m_Value: 14.674629
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -389,18 +389,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/_Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/_Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/harshalcarpenter/Block Breaker
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 27}
-    m_SelectedIDs: 74250000
-    m_LastClickedID: 9588
+    m_SelectedIDs: 4e250000
+    m_LastClickedID: 9550
     m_ExpandedIDs: 00000000de24000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -454,9 +454,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 60250000
+    m_LastClickedInstanceID: 9568
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: ea2600000000000006250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -473,7 +473,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 23
-    y: 566
+    y: 563
     width: 1121
     height: 250
 --- !u!114 &12

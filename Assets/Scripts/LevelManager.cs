@@ -24,4 +24,10 @@ public class LevelManager : MonoBehaviour {
 		Debug.Log ("Computer Won!");
 		LoadLevel ("Lose");
 	}
+
+	public void brickDestroyed(){
+		if (brickScript.brickCount <= 0) {
+			LoadNextLevel ();
+		}
+	}
 }
