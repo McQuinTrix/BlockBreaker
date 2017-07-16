@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 581, y: 471}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 8733
+  controlID: 12262
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 471}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 8734
+  controlID: 12263
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 200}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 8735
+  controlID: 12212
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,9 +201,9 @@ MonoBehaviour:
     height: 446
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 60250000
-    m_LastClickedID: 0
-    m_ExpandedIDs: f221feffa638feff6441fefffa42feffc653feff8057feff4e61feffc815ffff2a22ffff662bffffc22dfffff02effff9034ffff5839ffff4afbffff56fbffff74fbffffccfbffff00000000e0250000f2250000fa250000e2300000
+    m_SelectedIDs: b421feff
+    m_LastClickedID: -122444
+    m_ExpandedIDs: f221feffa638feff6441fefffa42feffc653feff8057feff4e61feffc815ffff2a22ffff662bffffc22dfffff02effff9034ffff5839ffff4afbffff56fbffff74fbffffccfbffff00000000e0250000f2250000fa250000e23000004a3d0000583d0000643d00007a3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -279,14 +279,14 @@ MonoBehaviour:
     width: 914
     height: 446
   m_SceneLighting: 0
-  lastFramingTime: 1915.9097869992256
+  lastFramingTime: 12672.383448004723
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 1
   m_Position:
-    m_Target: {x: 6.1257105, y: 5.75887, z: 10}
+    m_Target: {x: 8.063372, y: 5.8028755, z: -5}
     speed: 2
-    m_Value: {x: 6.1257105, y: 5.75887, z: 10}
+    m_Value: {x: 8.063372, y: 5.8028755, z: -5}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -313,9 +313,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 14.674629
+    m_Target: 14.086138
     speed: 2
-    m_Value: 14.674629
+    m_Value: 14.086138
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -389,18 +389,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Scenes
+    - Assets/Audio
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Scenes
+  - Assets/Audio
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/harshalcarpenter/Block Breaker
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 27}
-    m_SelectedIDs: 4e250000
-    m_LastClickedID: 9550
+    m_SelectedIDs: 44250000
+    m_LastClickedID: 9540
     m_ExpandedIDs: 00000000de24000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -454,9 +454,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 60250000
-    m_LastClickedInstanceID: 9568
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: b421feff
+    m_LastClickedInstanceID: -122444
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: ea2600000000000006250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

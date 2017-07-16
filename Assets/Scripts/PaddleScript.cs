@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PaddleScript : MonoBehaviour {
 
-
+	public AudioSource sound;
 
 	// Use this for initialization
 	void Start () {
