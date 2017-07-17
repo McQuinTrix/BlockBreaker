@@ -25,7 +25,7 @@ public class PaddleScript : MonoBehaviour {
 
 	void RoboPlay(){
 		Vector3 paddlePos = new Vector3(0f , this.transform.position.y, this.transform.position.z);
-		print (Ball.transform.position.x);
+
 		paddlePos.x = Mathf.Clamp (Ball.transform.position.x, 1.06f, (Screen.width/50 - 1.06f));
 
 		this.transform.position = paddlePos;

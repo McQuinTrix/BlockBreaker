@@ -20,6 +20,7 @@ public class brickScript : MonoBehaviour {
 		timesHit = 0;
 		maxHits = hitSprite.Length + 1;
 		lvl = GameObject.FindObjectOfType<LevelManager>();
+		print (lvl);
 	}
 	
 	// Update is called once per frame
@@ -36,9 +37,9 @@ public class brickScript : MonoBehaviour {
 	void HandleHits(){
 		timesHit++;
 		if (timesHit >= maxHits) {
-			Destroy (gameObject);
 			brickCount--;
 			lvl.brickDestroyed ();
+			Destroy (gameObject);
 		} else {
 			LoadSprites ();
 		}
