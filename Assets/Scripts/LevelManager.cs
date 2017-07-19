@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour {
 	//Whenver you want to let a function to be accessed by Unity, make it "public"
 	public void LoadLevel(string name){
 		Debug.Log ("Level Load requested for "+name);
+		brickScript.brickCount = 0;
 		SceneManager.LoadScene (name);
 	}
 
